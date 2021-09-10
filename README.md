@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Abdullahi-a-hussein
+- 👋 Hi, I’m <a href="https://github.com/Abdullahi-a-hussein"> Abdullahi Hussein</a>
 - 👀 I’m interested in data anaysis, data visualization, Coding challenges, Web Scrapping, or any data related area.
 - 🌱 I’m currently learning HTML and CSS for web design
 - 💞️ I’m looking to collaborate on designs application for data visualization
