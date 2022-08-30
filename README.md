@@ -1,6 +1,6 @@
 - 👋 Hi, I’m <a href="https://github.com/Abdullahi-a-hussein"> Abdullahi Hussein</a>
-- 👀 I’m interested in data anaysis, data visualization, Coding challenges, Web Scrapping, or any data related area.
-- 🌱 I’m currently learning HTML and CSS for web design
+- 👀 I am python full stack developer
+- 🌱 I am currently learning learning SQL database and how to integrate user data encryption.
 - 💞️ I’m looking to collaborate on designs application for data visualization
 - 📫 How to reach me is by email: abdullahi.a.hussein@gmail.com
 
