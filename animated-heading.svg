@@ -1,0 +1,38 @@
+<svg width="700" height="90" viewBox="0 0 700 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi, I'm Abdul">
+  <defs>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="50%" stop-color="#bb9af7"/>
+      <stop offset="100%" stop-color="#7dcfff"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#softGlow)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0; 18 2; 0 0; -18 -2; 0 0"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+    <text
+      x="350"
+      y="54"
+      text-anchor="middle"
+      font-family="'Fira Code', Consolas, Monaco, monospace"
+      font-size="34"
+      font-weight="600"
+      fill="url(#textGrad)">
+      Hi, I'm Abdul
+      <animate attributeName="y" values="54;50;54;58;54" dur="7s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

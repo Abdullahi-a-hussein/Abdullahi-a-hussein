@@ -1,0 +1,100 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgFade" x1="0" y1="0" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="gradMain" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="45%" stop-color="#bb9af7"/>
+      <stop offset="75%" stop-color="#7dcfff"/>
+      <stop offset="100%" stop-color="#2ac3de"/>
+    </linearGradient>
+
+    <linearGradient id="gradSoft" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#bb9af7" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7dcfff" stop-opacity="0.16"/>
+    </linearGradient>
+
+    <filter id="blurGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="12" result="blur1"/>
+      <feColorMatrix in="blur1" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.9 0" result="softGlow"/>
+      <feMerge>
+        <feMergeNode in="softGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="topShine" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="shine"/>
+      <feMerge>
+        <feMergeNode in="shine"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#bgFade)"/>
+
+  <!-- soft band -->
+  <path
+    d="M0 82
+       C 120 58, 230 104, 360 82
+       C 500 58, 620 106, 760 82
+       C 900 56, 1030 102, 1200 78
+       L1200 120 L0 120 Z"
+    fill="url(#gradSoft)"
+    filter="url(#blurGlow)">
+    <animate attributeName="d"
+      dur="7s"
+      repeatCount="indefinite"
+      values="
+      M0 82 C 120 58, 230 104, 360 82 C 500 58, 620 106, 760 82 C 900 56, 1030 102, 1200 78 L1200 120 L0 120 Z;
+      M0 78 C 120 102, 230 56, 360 80 C 500 104, 620 56, 760 82 C 900 106, 1030 58, 1200 82 L1200 120 L0 120 Z;
+      M0 82 C 120 58, 230 104, 360 82 C 500 58, 620 106, 760 82 C 900 56, 1030 102, 1200 78 L1200 120 L0 120 Z"/>
+  </path>
+
+  <!-- main premium wave -->
+  <path
+    d="M0 68
+       C 140 28, 270 108, 420 68
+       C 570 28, 700 108, 860 68
+       C 1010 28, 1110 98, 1200 68
+       L1200 120 L0 120 Z"
+    fill="url(#gradMain)"
+    filter="url(#blurGlow)">
+    <animate attributeName="d"
+      dur="5.2s"
+      repeatCount="indefinite"
+      values="
+      M0 68 C 140 28, 270 108, 420 68 C 570 28, 700 108, 860 68 C 1010 28, 1110 98, 1200 68 L1200 120 L0 120 Z;
+      M0 66 C 140 104, 270 24, 420 66 C 570 106, 700 22, 860 66 C 1010 104, 1110 34, 1200 66 L1200 120 L0 120 Z;
+      M0 68 C 140 28, 270 108, 420 68 C 570 28, 700 108, 860 68 C 1010 28, 1110 98, 1200 68 L1200 120 L0 120 Z"/>
+  </path>
+
+  <!-- glossy highlight -->
+  <path
+    d="M0 64
+       C 140 36, 270 84, 420 64
+       C 570 36, 700 84, 860 64
+       C 1010 38, 1110 80, 1200 64"
+    stroke="#d5d6ff"
+    stroke-opacity="0.45"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    filter="url(#topShine)">
+    <animate attributeName="d"
+      dur="5.2s"
+      repeatCount="indefinite"
+      values="
+      M0 64 C 140 36, 270 84, 420 64 C 570 36, 700 84, 860 64 C 1010 38, 1110 80, 1200 64;
+      M0 62 C 140 82, 270 34, 420 62 C 570 86, 700 30, 860 62 C 1010 82, 1110 42, 1200 62;
+      M0 64 C 140 36, 270 84, 420 64 C 570 36, 700 84, 860 64 C 1010 38, 1110 80, 1200 64"/>
+  </path>
+</svg>
