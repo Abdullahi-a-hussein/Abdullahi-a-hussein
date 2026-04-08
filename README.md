@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abdullahi&fontAlign=50&fontAlignY=38&desc=Backend%20Developer%20%7C%20API%20Builder%20%7C%20Data%20Pipeline&descAlign=50&descAlignY=60&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Abdullahi&fontAlign=50&fontAlignY=38&desc=Backend%20Developer%20%7C%20Data%20Pipeline&descAlign=50&descAlignY=60&animation=fadeIn" alt="header" />
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@ I like building software and Math Animations.
 That usually means:
 
 - designing **APIs** for backend and UI for the frontend.
-- working with **SQL** and \*_NoSQL_ databases.
+- working with **SQL** and **NoSQL** databases.
 - scraping and parsing **XML**, text, and other messy inputs
 - building backend systems that are clean, predictable, and fast
 - building frontend UI that are smooth and responsive.
@@ -121,13 +121,13 @@ Make it reliable
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=100000&color=7AA2F7&vCenter=true&repeat=false&width=310&lines=%24+watch+github_activity" alt="GitHub Activity" />
 
-<div align="center">
+<!-- <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdullahi-a-hussein&show_icons=true&theme=tokyonight&hide_border=true&v=2" alt="GitHub stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullahi-a-hussein&layout=compact&theme=tokyonight&hide_border=true&v=2" alt="Top languages" />
-</div>
+</div> -->
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Abdullahi-a-hussein&theme=tokyonight-duo&hide_border=true&background=00000000&ring=ff9e64&fire=ff9e64&currStreakLabel=ff9e64&sideLabels=c0caf5&dates=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Abdullahi-a-hussein&theme=tokyonight-duo&hide_border=true&background=00000000&ring=ff9e64&fire=ff9e64&currStreakLabel=ff9e64&sideLabels=c0caf5&dates=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&v=2" />
 </div>
 
 <img src="./tokyo-night-wave-thin.svg" width="100%" height="14" alt="" />
