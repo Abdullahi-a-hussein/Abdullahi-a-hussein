@@ -122,8 +122,8 @@ Make it reliable
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=100000&color=7AA2F7&vCenter=true&repeat=false&width=310&lines=%24+watch+github_activity" alt="GitHub Activity" />
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdullahi-a-hussein&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&text_color=c0caf5&icon_color=bb9af7&ring_color=7dcfff" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullahi-a-hussein&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=7aa2f7&text_color=c0caf5" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdullahi-a-hussein&show_icons=true&theme=tokyonight&hide_border=true&v=2" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullahi-a-hussein&layout=compact&theme=tokyonight&hide_border=true&v=2" alt="Top languages" />
 </div>
 
 <div align="center">
