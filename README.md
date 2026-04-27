@@ -121,14 +121,13 @@ Make it reliable
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=100000&color=7AA2F7&vCenter=true&repeat=false&width=310&lines=%24+watch+github_activity" alt="GitHub Activity" />
 
-<!-- <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abdullahi-a-hussein&show_icons=true&theme=tokyonight&hide_border=true&v=2" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullahi-a-hussein&layout=compact&theme=tokyonight&hide_border=true&v=2" alt="Top languages" />
-</div> -->
-
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Abdullahi-a-hussein&theme=tokyonight-duo&hide_border=true&background=00000000&ring=ff9e64&fire=ff9e64&currStreakLabel=ff9e64&sideLabels=c0caf5&dates=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&v=2" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullahi-a-hussein&layout=compact&theme=tokyonight&hide_border=true&v=2" alt="Top languages" />
 </div>
+
+<p align="center">
+<img height="170" src="https://streak-stats.demolab.com?user=Abdullahi-a-hussein&theme=tokyonight-duo&hide_border=true&background=00000000&ring=ff9e64&fire=ff9e64&currStreakLabel=ff9e64&sideLabels=c0caf5&dates=7aa2f7&currStreakNum=c0caf5&sideNums=c0caf5&v=2"" />
+</p>
 
 <img src="./tokyo-night-wave-thin.svg" width="100%" height="14" alt="" />
 
@@ -143,4 +142,3 @@ Make it reliable
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&animation=fadeIn&color=0:0f111a,50:24283b,100:1f2335" alt="footer" />
 </div>
-```
